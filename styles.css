@@ -383,3 +383,77 @@ grid-template-columns:1fr;
 grid-template-columns:repeat(2,1fr);
 }
 }
+
+/* SERVICE AREA SECTION */
+
+.service-area{
+max-width:1000px;
+margin:auto;
+text-align:center;
+}
+
+.service-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.area-card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,.08);
+}
+
+.area-card h3{
+color:#1E5A35;
+margin-bottom:10px;
+}
+
+.area-card ul{
+list-style:none;
+padding:0;
+margin:0;
+}
+
+.area-card li{
+padding:4px 0;
+font-size:16px;
+}
+
+/* TESTIMONIAL SECTION */
+
+.testimonials{
+max-width:1000px;
+margin:auto;
+text-align:center;
+padding:70px 20px;
+}
+
+.testimonial-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.testimonial-card{
+background:white;
+padding:25px;
+border-radius:14px;
+box-shadow:0 8px 22px rgba(0,0,0,.08);
+text-align:left;
+}
+
+.testimonial-stars{
+color:#f2b01e;
+font-size:18px;
+margin-bottom:10px;
+}
+
+.testimonial-name{
+font-weight:700;
+margin-top:15px;
+color:#1E5A35;
+}
