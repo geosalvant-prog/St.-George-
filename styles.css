@@ -552,3 +552,20 @@ padding-bottom:18px;
 .faq-item.active .faq-question::after{
 content:"–";
 }
+
+/* LINK STYLING */
+
+a{
+color:#1E5A35;
+text-decoration:none;
+transition:.2s;
+}
+
+a:hover{
+color:#2F7A3E;
+text-decoration:underline;
+}
+
+a:visited{
+color:#1E5A35;
+}
