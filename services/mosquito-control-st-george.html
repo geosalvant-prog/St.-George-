@@ -38,13 +38,7 @@ gtag('config', 'G-JWE6BVJVM1');
 </script>
 
 </head>
-<script>
-document.querySelectorAll(".faq-question").forEach(question=>{
-question.addEventListener("click",()=>{
-question.parentElement.classList.toggle("active");
-});
-});
-</script>
+
 <body>
 
 <div class="topbar">
@@ -368,7 +362,7 @@ onclick="gtag('event','cta_click',{event_category:'lead',event_label:'mosquito_f
 </section>
 
 
-<footer>
+<<footer>
 
 <p>
 Mosquito control services provided by  
@@ -376,7 +370,6 @@ Mosquito control services provided by
 </p>
 
 </footer>
-
 
 <div class="callbar">
 
@@ -387,6 +380,15 @@ onclick="gtag('event','phone_click',{event_category:'lead',event_label:'mosquito
 
 </div>
 
-</body>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".faq-question").forEach(question => {
+    question.addEventListener("click", () => {
+      question.parentElement.classList.toggle("active");
+    });
+  });
+});
+</script>
 
+</body>
 </html>
